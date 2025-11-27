@@ -1,0 +1,11 @@
+/* style.css */
+body { font-family: sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+h2 { text-align: center; color: #333; }
+input, button, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+button { background-color: #28a745; color: white; cursor: pointer; border: none; font-weight: bold; }
+button:hover { background-color: #218838; }
+button.delete-btn { background-color: #dc3545; margin-top: 5px; }
+.link { text-align: center; display: block; margin-top: 10px; color: #007bff; text-decoration: none; }
+.task-item { background: #fff; border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; border-radius: 4px; }
+.task-item h3 { margin: 0 0 5px; color: #333; }
